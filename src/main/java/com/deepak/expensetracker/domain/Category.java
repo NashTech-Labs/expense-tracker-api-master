@@ -1,7 +1,12 @@
 package com.deepak.expensetracker.domain;
 
+/**
+ * fsdfsdf
+ */
 public class Category {
-
+    /**
+     * rfsf
+     */
     private Integer categoryId;
     private Integer userId;
     private String title;
