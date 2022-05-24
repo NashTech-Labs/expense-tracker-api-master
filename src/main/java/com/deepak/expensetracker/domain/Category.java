@@ -1,12 +1,11 @@
 package com.deepak.expensetracker.domain;
 
 /**
- * fsdfsdf
+ * a method Category created
+ * a category have many entities
  */
 public class Category {
-    /**
-     * rfsf
-     */
+
     private Integer categoryId;
     private Integer userId;
     private String title;

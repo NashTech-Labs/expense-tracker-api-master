@@ -5,6 +5,7 @@ import com.deepak.expensetracker.exceptions.EtResourceNotFoundException;
 import com.deepak.expensetracker.domain.Category;
 
 import java.util.List;
+import jdk.jfr.Category;
 
 public interface CategoryService {
 

@@ -3,6 +3,7 @@ package com.deepak.expensetracker.repositories;
 import com.deepak.expensetracker.exceptions.EtBadRequestException;
 import com.deepak.expensetracker.exceptions.EtResourceNotFoundException;
 import com.deepak.expensetracker.domain.Category;
+import jdk.jfr.Category;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
@@ -63,6 +64,11 @@ public class CategoryRepositoryImpl implements CategoryRepository {
         }catch (Exception e) {
             throw new EtBadRequestException("Invalid request");
         }
+    }
+
+    @Override
+    public void update(Integer userId, Integer categoryId, Category category) throws EtBadRequestException {
+
     }
 
     @Override
