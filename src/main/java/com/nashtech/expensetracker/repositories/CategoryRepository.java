@@ -17,5 +17,4 @@ public interface CategoryRepository {
     void update(Integer userId, Integer categoryId, Category category) throws EtBadRequestException;
 
     void removeById(Integer userId, Integer categoryId);
-
 }

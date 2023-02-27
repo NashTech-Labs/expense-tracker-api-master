@@ -65,4 +65,5 @@ public class Transaction {
     public void setTransactionDate(Long transactionDate) {
         this.transactionDate = transactionDate;
     }
+
 }

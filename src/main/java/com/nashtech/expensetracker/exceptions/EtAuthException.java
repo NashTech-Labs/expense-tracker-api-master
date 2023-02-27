@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 @ResponseStatus(HttpStatus.UNAUTHORIZED)
 
 /**
- *
+ *Et Auth Exceptions
  */
 public class EtAuthException extends RuntimeException {
 

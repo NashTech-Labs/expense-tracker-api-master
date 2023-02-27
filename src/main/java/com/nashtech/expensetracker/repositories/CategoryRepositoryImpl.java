@@ -96,4 +96,5 @@ public class CategoryRepositoryImpl implements CategoryRepository {
                 rs.getString("DESCRIPTION"),
                 rs.getDouble("TOTAL_EXPENSE"));
     });
+
 }

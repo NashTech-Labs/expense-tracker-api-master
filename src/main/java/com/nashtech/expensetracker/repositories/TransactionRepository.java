@@ -17,5 +17,4 @@ public interface TransactionRepository {
     void update(Integer userId, Integer categoryId, Integer transactionId, Transaction transaction) throws EtBadRequestException;
 
     void removeById(Integer userId, Integer categoryId, Integer transactionId) throws EtResourceNotFoundException;
-
 }

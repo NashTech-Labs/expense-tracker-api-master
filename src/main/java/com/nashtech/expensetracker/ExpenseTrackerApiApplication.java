@@ -37,5 +37,4 @@ public class ExpenseTrackerApiApplication {
 		registrationBean.addUrlPatterns("/api/categories/*");
 		return registrationBean;
 	}
-
 }

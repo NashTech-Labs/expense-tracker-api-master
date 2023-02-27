@@ -83,4 +83,5 @@ public class TransactionRepositoryImpl implements TransactionRepository {
                 rs.getString("NOTE"),
                 rs.getLong("TRANSACTION_DATE"));
     });
+
 }

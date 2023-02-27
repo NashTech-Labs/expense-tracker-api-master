@@ -59,4 +59,5 @@ public class Category {
     public void setTotalExpense(Double totalExpense) {
         this.totalExpense = totalExpense;
     }
+
 }

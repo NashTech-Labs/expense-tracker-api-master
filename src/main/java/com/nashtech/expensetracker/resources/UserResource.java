@@ -56,4 +56,5 @@ public class UserResource {
         map.put("token", token);
         return map;
     }
+
 }
